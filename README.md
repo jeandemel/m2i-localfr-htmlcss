@@ -17,3 +17,13 @@ Ces éléments HTML n'ont presqu'aucun effet et aucune valeur sémantique par eu
 ![maquette](maquettes/exo-page2.png)
 
 En se basant sur la maquette ci-dessus, l'idée est de créer une [structure HTML](exo-structure.html) pure sans penser au style ou à l'apparence, mais en se concentrant sur ce que représente sémantiquement les différents blocs
+
+## Exercice Selectors ([html](exo-selector.html)/[css](css/exo-selector.css))
+1. Créer une balise section avec un id "first" qui contiendra un h1 avec First Section dedans
+2. Dans la section créer un paragraphe avec "some text" dedans qui aura également une balise span avec une classe "highlight"  et comme contenu " and important text"
+3. Dans le fichier CSS sélectionner le h1 à l'intérieur de la section first et mettre sa couleur en bleu et le mettre en gras
+4. Ensuite, sélectionner la classe highlight et mettre sa couleur de fond en jaune et mettre son texte en italique
+5. Dans le HTML, créer un nouveau paragraphe et lui mettre la  classe highlight et comme contenu "another paragraph", ainsi qu'un autre span avec la classe highlight dessus et " with more important text" comme contenu
+6. Dans le css, faire une règle pour que les classe highlight à l'intérieur d'une classe highlight ait leur texte en bleu
+7. Créer une nouvelle règle css qui mettra une bordure en pointillés autour des paragraphes qui sont dans un article (pour fêter ça,  faire un article avec un paragraphe dedans)
+8. Mettre un h2 dans l'article puis faire une règle qui change la taille du texte des h2 pour 0.5em et tout en majuscule 
