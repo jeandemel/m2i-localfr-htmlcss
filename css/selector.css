@@ -1,7 +1,14 @@
+/* Pour cibler toutes les balises */
+* {
+    margin:0;
+    padding:0;
+}
+/*Pour cibler tout un type de balise*/
 p {
     color:red;
 }
 
+/* Pour cibler une classe */
 .ma-classe {
     border: 1px solid black;
 }
@@ -9,7 +16,28 @@ p {
 .mon-autre-classe {
     font-size: 2em;
 }
-
+/* Pour cibler un id */
 #mon-id {
 
+}
+/* S'applique sur les a directement dans body */
+body > a {
+
+}
+
+/* s'applique sur tous les a qui sont dans le body même s'ils sont
+enfant d'un autre élément */
+body span {
+
+}
+
+.ma-classe, 
+.mon-autre-classe, 
+#mon-id {
+/* styles qui s'appliquera aux 3 sélecteurs au dessus */
+}
+
+/* s'applique spécifiquement au paragraphes qui ont la classe ma-classe */
+p.ma-classe {
+    
 }
