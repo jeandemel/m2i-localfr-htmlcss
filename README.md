@@ -12,3 +12,8 @@ Pour ça depuis le HTML5 on aura en plus comme outils les (balises sémantiques)
 
 ### Les div et span
 Ces éléments HTML n'ont presqu'aucun effet et aucune valeur sémantique par eux même. Dès lors, lorsqu'on crée une structure logique, il n'y a pas de raison de les utiliser. Ça ne veut pas dire que leur utilisation est proscrite ou inutile, bien au contraire, il faudra juste réserver leur utilisation pour : faire du CSS (par exemple dans le cas où on veut faire un style css complexe qui nécessite plusieurs éléments html, mais sans pour autant qu'on souhaite modifier notre structure sémantique) ou faire du Javascript (si on veut rajouter des interactions ou autre sans modifier la structure sémantique)
+
+## Créer une structure à partir d'une maquette
+![maquette](maquettes/exo-page2.png)
+
+En se basant sur la maquette ci-dessus, l'idée est de créer une [structure HTML](exo-structure.html) pure sans penser au style ou à l'apparence, mais en se concentrant sur ce que représente sémantiquement les différents blocs
