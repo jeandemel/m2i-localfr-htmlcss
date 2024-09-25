@@ -1,0 +1,11 @@
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+@media  (max-width: 500px) and (min-width:400px){
+    .square {
+        background-color: green;
+    }
+}
