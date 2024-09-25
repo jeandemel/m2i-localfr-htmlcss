@@ -29,4 +29,11 @@ En se basant sur la maquette ci-dessus, l'idée est de créer une [structure HTM
 8. Mettre un h2 dans l'article puis faire une règle qui change la taille du texte des h2 pour 0.5em et tout en majuscule 
 
 
-https://flexboxfroggy.com/#fr
+## Ressources
+
+* Pour les différentes propriétés CSS et des aides visuel, une [CSS Cheatsheet](https://htmlcheatsheet.com/css/)
+* [Petite aide visuelles](https://simplonlyon.gitlab.io/P9/css-exercices/position.html) pour voir comment interagissent les différents positionnements ensembles et avec les marges et tout
+* Pour les flexbox, le petit jeu [flexbox froggy](https://flexboxfroggy.com/) est très bien
+* Dans la même veine que les grenouille, il y a le [grid garden](https://cssgridgarden.com) pour le display grid
+
+

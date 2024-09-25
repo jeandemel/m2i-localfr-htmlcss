@@ -1,9 +1,19 @@
+/* Pour les flex, c'est bien le conteneur qu'il faut mettre
+en flex et sur lequel se retrouvera la plupart des propriétés
+liées au flex. Certaines propriétés peuvent être mise sur les 
+enfants mais il s'agit de truc très spécifiques */
 .container {
     display: flex;
+    /* wrap pour indiquer au flex de revenir à la ligne lorsque la taille de ses enfants
+    dépassent la taille du parent (par défaut, il garde tout sur la même ligne et ignore la taille) */
     flex-wrap: wrap;
 
     height: 100vh;
+    /* pour gérer l'espacement de la direction principale (horizontale si row, verticale si column) 
+    entre les enfants dans le cas où ils ne prennent pas 100% du parent */
     justify-content: space-around;
+    /* pour gérer le positionnement  (horizontale si column, verticale si row) des enfants dans le parent 
+    entre les enfants dans le cas où ils ne prennent pas 100% du parent */
     align-items: center;
 }
 
