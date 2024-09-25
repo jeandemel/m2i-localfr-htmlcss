@@ -17,6 +17,13 @@ enfants mais il s'agit de truc très spécifiques */
     align-items: center;
 }
 
+/* Au final on met assez peu de règles css propres aux flexbox dans les enfants,
+même s'il en existes certaines pour appliquer un positionnement à un élément spécifique,
+elles contiennent généralement -self dans le nom de la propriété
+
+On peut par contre appliquer des width, des margin, des padding, ce qui aura un impact
+sur le positionnement final vu que celui ci se base sur la taille des éléments par rapport
+à leur parent */
 article {
     width: 20%;
     border: 1px solid black;

@@ -35,5 +35,6 @@ En se basant sur la maquette ci-dessus, l'idée est de créer une [structure HTM
 * [Petite aide visuelles](https://simplonlyon.gitlab.io/P9/css-exercices/position.html) pour voir comment interagissent les différents positionnements ensembles et avec les marges et tout
 * Pour les flexbox, le petit jeu [flexbox froggy](https://flexboxfroggy.com/) est très bien
 * Dans la même veine que les grenouille, il y a le [grid garden](https://cssgridgarden.com) pour le display grid
+* Pour passer de bons moments à la pause mais en continuant à coder du coup c'est pas vraiment une pause [CSS Battle](https://cssbattle.dev/) (des dessins et formes à reproduires en html/css le plus pixel perfect possible et/ou avec le moins de ligne de code possible)
 
 

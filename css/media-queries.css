@@ -4,6 +4,17 @@
     background-color: red;
 }
 
+/*
+Une media query permettra de venir indiquer autant de règles css qu'on veut, qui ne 
+s'appliqueront que dans le cas où la condition de la media query est vérifiée.
+Par exemple ici, le background color green ne s'appliquera sur le la classe square
+qui si la taille de l'écran fait entre 400 et 500 pixels
+On peut avoir autant de sélecteurs et propriétés css dans une même media query, ici c'est
+juste un exemple avec un seul truc 
+Pour ce qui est des conditions, on peut les voir sur la doc de mozilla mais on utilisera
+le plus souvent les max et min width, l'orientation de l'écran (paysage, portrait), si c'est
+un écran ou du print ou un lecteur d'écran.
+*/
 @media  (max-width: 500px) and (min-width:400px){
     .square {
         background-color: green;
