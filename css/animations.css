@@ -1,0 +1,35 @@
+
+.square {
+    position: absolute;
+    background-color: red;
+    width: 200px;
+    height:200px;
+    transition: all 5s;
+    transition-timing-function: ease-in-out;
+
+
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.square:hover {
+    background-color: green;
+    width: 300px;
+}
+
+.square:active {
+    width:10px;
+}
+
+@keyframes move {
+    0% {
+        left: 0;
+        rotate: 0deg;
+    }
+    100% {
+        left: 100%;
+        rotate: 360deg;
+    }
+}
