@@ -1,0 +1,52 @@
+.building {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: end;
+
+    width: 250px;
+    height: 500px;
+    background-color: lightgray;
+}
+
+.window {
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+}
+
+.door {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 50px;
+    width: 100px;
+    height: 120px;
+    background-color: brown;
+}
+
+.door .handle {
+    width: 10px;
+    height: 10px;
+    background-color: goldenrod;
+    border-radius: 20px;
+    margin-right:5px;
+}
+
+.bigger {
+    width: 350px;
+    height: 400px;
+}
+
+.grass {
+    background-color: green;
+    height: 50px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: end;
+}
