@@ -27,3 +27,6 @@ En se basant sur la maquette ci-dessus, l'idée est de créer une [structure HTM
 6. Dans le css, faire une règle pour que les classe highlight à l'intérieur d'une classe highlight ait leur texte en bleu
 7. Créer une nouvelle règle css qui mettra une bordure en pointillés autour des paragraphes qui sont dans un article (pour fêter ça,  faire un article avec un paragraphe dedans)
 8. Mettre un h2 dans l'article puis faire une règle qui change la taille du texte des h2 pour 0.5em et tout en majuscule 
+
+
+https://flexboxfroggy.com/#fr
